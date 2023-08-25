@@ -24,12 +24,12 @@
             <div class="col-md-12">
 <div class="form-group">
 <label>Name</label>
-<input type="text" mame="name" value="<?php echo set_value('name');?>" class="form-control">
+<input type="text" name="name" value="<?php echo set_value('name');?>" class="form-control">
 <?php echo form_error('name');?>
 </div>
 <div class="form-group">
 <label>Email</label>
-<input type="email" mame="email"  value="<?php echo set_value('email');?>" class="form-control">
+<input type="email" name="email"  value="<?php echo set_value('email');?>" class="form-control">
 <?php echo form_error('email');?>
 
 </div>
